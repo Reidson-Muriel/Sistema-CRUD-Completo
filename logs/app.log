@@ -557,3 +557,22 @@
 2026-03-15 15:04:51,239 - INFO - 127.0.0.1 - - [15/Mar/2026 15:04:51] "POST /contatos HTTP/1.1" 200 -
 2026-03-15 15:15:12,470 - INFO - 127.0.0.1 - - [15/Mar/2026 15:15:12] "OPTIONS /contatos HTTP/1.1" 200 -
 2026-03-15 15:15:12,554 - INFO - 127.0.0.1 - - [15/Mar/2026 15:15:12] "POST /contatos HTTP/1.1" 200 -
+2026-03-15 15:22:45,927 - INFO - 127.0.0.1 - - [15/Mar/2026 15:22:45] "OPTIONS /contatos HTTP/1.1" 200 -
+2026-03-15 15:22:46,022 - INFO - 127.0.0.1 - - [15/Mar/2026 15:22:46] "POST /contatos HTTP/1.1" 200 -
+2026-03-15 15:24:12,204 - INFO - 127.0.0.1 - - [15/Mar/2026 15:24:12] "GET /contatos HTTP/1.1" 200 -
+2026-03-15 15:24:28,074 - INFO - 127.0.0.1 - - [15/Mar/2026 15:24:28] "GET /contatos/3 HTTP/1.1" 200 -
+2026-03-15 15:24:34,217 - INFO - 127.0.0.1 - - [15/Mar/2026 15:24:34] "GET /contatos/4 HTTP/1.1" 200 -
+2026-03-15 15:24:51,204 - INFO - 127.0.0.1 - - [15/Mar/2026 15:24:51] "OPTIONS /contatos/4 HTTP/1.1" 200 -
+2026-03-15 15:24:51,275 - INFO - 127.0.0.1 - - [15/Mar/2026 15:24:51] "[35m[1mPUT /contatos/4 HTTP/1.1[0m" 500 -
+2026-03-15 15:25:04,090 - INFO - 127.0.0.1 - - [15/Mar/2026 15:25:04] "OPTIONS /contatos/4 HTTP/1.1" 200 -
+2026-03-15 15:25:04,157 - INFO - 127.0.0.1 - - [15/Mar/2026 15:25:04] "PUT /contatos/4 HTTP/1.1" 200 -
+2026-03-15 15:25:06,344 - INFO - 127.0.0.1 - - [15/Mar/2026 15:25:06] "GET /contatos/4 HTTP/1.1" 200 -
+2026-03-15 15:57:08,941 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.106:5000
+2026-03-15 15:57:08,942 - INFO - [33mPress CTRL+C to quit[0m
+2026-03-15 16:11:03,085 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.106:5000
