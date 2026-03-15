@@ -1,1 +1,1 @@
-gunicorn app:app
+gunicorn sistema.app:app
