@@ -9,7 +9,7 @@ document.getElementById("entrada").addEventListener("submit",
         alert("Digite o ID");
         return;
     }
-    const api_url = `http://${window.location.hostname}:5000/contatos/${id}`;
+    const api_url = `http://${window.location.origin}/contatos/${id}`;
     const resposta = await fetch(api_url);
     
     if (!resposta.ok) {

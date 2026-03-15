@@ -1,5 +1,5 @@
 
-const api_url = "http://127.0.0.1:5000/contatos";
+const api_url = `http://${window.location.origin}/contatos`;
 
 async function listarContatos() {
     const resposta = await fetch(api_url);
