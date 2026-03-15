@@ -5,6 +5,9 @@ app = Flask(__name__)
 CORS(app)
 app.register_blueprint(contato_bp)
 
+@app.route("/")
+def home():
+    return "Sistema CRUD rodando online 🚀"
     
 ## rota para exercutar no dispositivo moveis
 if __name__ == "__main__":

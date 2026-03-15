@@ -582,3 +582,29 @@
  * Running on http://127.0.0.1:5000
  * Running on http://192.168.0.106:5000
 2026-03-15 17:35:36,857 - INFO - [33mPress CTRL+C to quit[0m
+2026-03-15 18:07:55,877 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.106:5000
+2026-03-15 18:07:55,877 - INFO - [33mPress CTRL+C to quit[0m
+2026-03-15 18:08:36,884 - INFO - 127.0.0.1 - - [15/Mar/2026 18:08:36] "GET /contatos HTTP/1.1" 200 -
+2026-03-15 18:08:37,628 - INFO - 127.0.0.1 - - [15/Mar/2026 18:08:37] "GET /contatos HTTP/1.1" 200 -
+2026-03-15 18:09:16,400 - INFO - 127.0.0.1 - - [15/Mar/2026 18:09:16] "[33mGET /frontend/buscar_dados.html HTTP/1.1[0m" 404 -
+2026-03-15 18:09:16,554 - INFO - 127.0.0.1 - - [15/Mar/2026 18:09:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-15 18:09:26,842 - INFO - 127.0.0.1 - - [15/Mar/2026 18:09:26] "[33mGET /frontend/buscar_dados.html HTTP/1.1[0m" 404 -
+2026-03-15 18:09:27,721 - INFO - 127.0.0.1 - - [15/Mar/2026 18:09:27] "[33mGET /frontend/buscar_dados.html HTTP/1.1[0m" 404 -
+2026-03-15 18:09:28,310 - INFO - 127.0.0.1 - - [15/Mar/2026 18:09:28] "[33mGET /frontend/buscar_dados.html HTTP/1.1[0m" 404 -
+2026-03-15 18:09:28,711 - INFO - 127.0.0.1 - - [15/Mar/2026 18:09:28] "[33mGET /frontend/buscar_dados.html HTTP/1.1[0m" 404 -
+2026-03-15 18:09:28,874 - INFO - 127.0.0.1 - - [15/Mar/2026 18:09:28] "[33mGET /frontend/buscar_dados.html HTTP/1.1[0m" 404 -
+2026-03-15 18:09:29,122 - INFO - 127.0.0.1 - - [15/Mar/2026 18:09:29] "[33mGET /frontend/buscar_dados.html HTTP/1.1[0m" 404 -
+2026-03-15 18:09:29,303 - INFO - 127.0.0.1 - - [15/Mar/2026 18:09:29] "[33mGET /frontend/buscar_dados.html HTTP/1.1[0m" 404 -
+2026-03-15 18:09:29,759 - INFO - 127.0.0.1 - - [15/Mar/2026 18:09:29] "[33mGET /frontend/buscar_dados.html HTTP/1.1[0m" 404 -
+2026-03-15 18:09:30,124 - INFO - 127.0.0.1 - - [15/Mar/2026 18:09:30] "[33mGET /frontend/buscar_dados.html HTTP/1.1[0m" 404 -
+2026-03-15 18:09:30,377 - INFO - 127.0.0.1 - - [15/Mar/2026 18:09:30] "[33mGET /frontend/buscar_dados.html HTTP/1.1[0m" 404 -
+2026-03-15 18:09:30,758 - INFO - 127.0.0.1 - - [15/Mar/2026 18:09:30] "[33mGET /frontend/buscar_dados.html HTTP/1.1[0m" 404 -
+2026-03-15 18:09:36,945 - INFO - 127.0.0.1 - - [15/Mar/2026 18:09:36] "[33mGET / HTTP/1.1[0m" 404 -
+2026-03-15 18:09:45,067 - INFO - 127.0.0.1 - - [15/Mar/2026 18:09:45] "GET /contatos HTTP/1.1" 200 -
+2026-03-15 18:09:53,509 - INFO - 127.0.0.1 - - [15/Mar/2026 18:09:53] "GET /contatos HTTP/1.1" 200 -
+2026-03-15 18:09:57,913 - INFO - 127.0.0.1 - - [15/Mar/2026 18:09:57] "GET /contatos/1 HTTP/1.1" 200 -
+2026-03-15 18:10:03,976 - INFO - 127.0.0.1 - - [15/Mar/2026 18:10:03] "GET /contatos/2 HTTP/1.1" 200 -
+2026-03-15 18:10:14,141 - INFO - 127.0.0.1 - - [15/Mar/2026 18:10:14] "[33mGET / HTTP/1.1[0m" 404 -
