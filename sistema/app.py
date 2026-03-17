@@ -11,8 +11,8 @@ def home():
 @app.route("/buscar")
 def buscar():
     return render_template("buscar_dados.html")
-@app.route("/cadastrar")
-def adicionar():
+@app.route("/cadastro")
+def cadastro():
     return render_template("cadastro.html")
 
 
