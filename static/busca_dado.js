@@ -9,7 +9,7 @@ document.getElementById("entrada").addEventListener("submit",
         alert("Digite o ID");
         return;
     }
-    const api_url = `http://${window.location.origin}/contatos/${id}`;
+    const api_url = `/contatos/${id}`;
     const resposta = await fetch(api_url);
     
     if (!resposta.ok) {
@@ -63,7 +63,7 @@ async function editar() {
 
 async function salvarEdicao() {
     const id = contatoAtual.id;
-    const api_url = `http://${window.location.hostname}:5000/contatos/${id}`;
+    const api_url = `/contatos/${id}`;
 
 
     const nome = document.getElementById("edit-nome").value;
@@ -96,7 +96,7 @@ async function salvarEdicao() {
 
 async function excluir(){
     const id = contatoAtual.id;
-    const api_url = `http://${window.location.hostname}:5000/contatos/${id}`;
+    const api_url = `/contatos/${id}`;
     fetch(api_url,{
         method:"DELETE"
     })

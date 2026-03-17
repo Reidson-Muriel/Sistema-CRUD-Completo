@@ -1,4 +1,4 @@
-const api_url = `http://${window.location.origin}/contatos`;   
+const api_url = `/contatos`;   
 
 document.getElementById("form_contato").addEventListener("submit", async (e) =>{
     e.preventDefault();
