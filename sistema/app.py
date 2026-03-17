@@ -1,7 +1,7 @@
 from flask import Flask, render_template
 from flask_cors import CORS
 from sistema.routes.contatos_routes import contato_bp
-app = Flask(__name__)
+app = Flask(__name__, template_folder="templates", static_folder="static")
 CORS(app)
 app.register_blueprint(contato_bp)
 
