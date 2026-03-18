@@ -35,8 +35,8 @@ document.getElementById("entrada").addEventListener("submit",
                     <td>${contato.data.observacao}</td>    
                     <td>
                         <div class="acoes">
-                            <button class="btn btn-primary me-1" onclick="editar()">Editar</button>
-                            <button class="btn btn-danger " onclick="excluir()">Excluir</button>
+                            <button class="btn btn-primary me-1" onclick="editar(${contato.data.id})">Editar</button>
+                            <button class="btn btn-danger " onclick="excluir(${contato.data.id})">Excluir</button>
                         </dvi>
                     </td>
         `;  
@@ -79,7 +79,7 @@ async function salvarEdicao() {
          headers: {
             "Content-Type": "application/json"
         },
-        body: JSON.stringify({nome, nascimento, telefone, email, endereco, observacao})
+        body: JSON.stringify({nome, idade: nascimento, telefone, email, endereco, observacao})
     });
     
     if(!resposta.ok){
@@ -94,7 +94,7 @@ async function salvarEdicao() {
  }
 
 
-async function excluir(){
+async function excluir(id){
     const id = contatoAtual.id;
     const api_url = `/contatos/${id}`;
     fetch(api_url,{
@@ -106,6 +106,6 @@ async function excluir(){
         }
         alert("Excluido com sucesso!");
 
-        document.getElementById(buscar_dado).innerHTML="";
+        document.getElementById(buscar_contato).innerHTML="";
     });
 }

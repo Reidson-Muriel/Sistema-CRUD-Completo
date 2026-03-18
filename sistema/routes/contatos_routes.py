@@ -56,5 +56,7 @@ def atualizar_contato(id):
 # rota para deletar o contato delete 
 @contato_bp.route("/contatos/<int:id>", methods=["DELETE"])
 def deletar_contato(id):
-    return deletar_contatos(id)
-
+    try:
+        return deletar_contatos(id)
+    except Exception as erro:
+        return resp_erro({"Erro ao deletar o contato" + str(erro)}, 500)
