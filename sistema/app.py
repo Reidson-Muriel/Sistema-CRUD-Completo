@@ -1,3 +1,4 @@
+import os
 from flask import Flask, render_template
 from flask_cors import CORS
 from sistema.routes.contatos_routes import contato_bp
@@ -19,4 +20,5 @@ def cadastro():
     
 ## rota para exercutar no dispositivo moveis
 if __name__ == "__main__":
-    app.run(debug=False, host="0.0.0.0", port=5000) 
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host="0.0.0.0", port=port) 
